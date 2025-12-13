@@ -1,0 +1,26 @@
+
+// Enebel AutoComplete In Visual Studio Code 
+
+// {
+//     "launch": {
+
+//         "configurations": [],
+//         "compounds": []
+//     }
+// }
+
+
+
+// Disable AutoComplete In Visual Studio Code 
+
+{
+  "editor.quickSuggestions": {
+    "other": false,
+    "comments": false,
+    "strings": false
+  },
+  "editor.suggestOnTriggerCharacters": false,
+  "editor.inlineSuggest.enabled": false,
+  "editor.tabCompletion": "off",
+  "editor.parameterHints.enabled": false
+}
