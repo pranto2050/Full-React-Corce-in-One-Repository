@@ -1,13 +1,12 @@
 
 
 import React from "react";
-import Img1 from '../assets/Img/logo.png'
-
+import Img1 from '../assets/Img/logo.png';
+import { ThumbsUp } from "lucide-react";
 
 function Praduct(){
     return(
         <div className=" bg-blue-300 mt-5 p-20">
-
             <div className=" flex items-center gap-10 h-50 rounded-[10px] ">
                 <div><img src={Img1} className="h-40 rounded-full"/></div>
                 <div>
@@ -15,15 +14,14 @@ function Praduct(){
                     <p> I am a Websevoloper </p>
                 </div>
             </div>
-
             <div className=" bg-white h-150 p-5 rounded-[5px]">
                 <div className="flex justify-between">
-                    <h2 className=" bg-black text-white px-4 py-2 rounded-2xl"> Turget Audience </h2>
-                    <p> Desigital Platfrom </p>
+                    <h2 className=" bg-black text-white px-4 py-2 rounded-2xl uppercase"> Turget Audience </h2>
+                    <p className=" uppercase tracking-wider"> Desigital Platfrom </p>
                 </div>
                 <div className="mt-20 flex justify-around">
                     <div>
-                        <h1 className="text-4xl font-bold">Customar Review </h1>
+                        <h1 className="text-4xl font-bold uppercase">Customar Review </h1>
                         <p> sadlkfj lsadfhakjsd fsd fkjsd fksajdflaskjdfhalsdkfjhsad </p>
                     </div>
                     <div className=" overflow-hidden bg-amber-200">
