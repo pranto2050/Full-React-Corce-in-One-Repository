@@ -1,16 +1,19 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import 'remixicon/fonts/remixicon.css'
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
+
+    function my(){
+      console.log('Click Is Working');
+    }
+
 
   return (
-    <div>
+    <div className='p-10'>
       <h1> React Hook Larning </h1>
 
-    
+    <button className=' mt-10 p-5 rounded-full px-10 text-green-500 bg-amber-700' onClick={my}> Click Me <i class="ri-cursor-line"></i> </button>
 
 
 
