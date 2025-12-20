@@ -1,39 +1,87 @@
 
 
 import React from "react";
-import Img1 from '../assets/Img/logo.png';
+import Img1 from '../assets/Img/01.jpg';
 import { ThumbsUp } from "lucide-react";
+import CenterPage from './CenterPage';
+import 'remixicon/fonts/remixicon.css';
 
 function Praduct(){
+
+const users = [
+    {
+        id: 1,
+        discription: "Bangladesh, or the People's Republic of Bangladesh, is a densely populated South Asian nation known for its fertile river deltas",
+        click: "Click Here",
+        img: {Img1}
+    },
+    {
+        id: 2,
+        discription: "Bangladesh, or the People's Republic of Bangladesh, is a densely populated South Asian nation known for its fertile river deltas",
+        click: "Click Here",
+        img: {Img1}
+    },
+    {
+        id: 3,
+        discription: "Bangladesh, or the People's Republic of Bangladesh, is a densely populated South Asian nation known for its fertile river deltas",
+        click: "Click Here",
+        img: {Img1}
+    }
+]
+
     return(
-        <div className=" bg-blue-300 mt-5 p-20">
+        <div className=" bg-blue-300 mt-5 p-10">
             <div className=" flex items-center gap-10 h-50 rounded-[10px] ">
-                <div><img src={Img1} className="h-40 rounded-full"/></div>
+                <div><img src={Img1} className="h-30 rounded-full"/></div>
                 <div>
                     <h1 className=" text-4xl font-bold"> Md.Pranto Islam</h1>
                     <p> I am a Websevoloper </p>
                 </div>
             </div>
-            <div className=" bg-white h-150 p-5 rounded-[5px]">
+            <div className=" bg-white h-[100vh] p-5 rounded-[5px]">
                 <div className="flex justify-between">
                     <h2 className=" bg-black text-white px-4 py-2 rounded-2xl uppercase"> Turget Audience </h2>
                     <p className=" uppercase tracking-wider"> Desigital Platfrom </p>
                 </div>
-                <div className="mt-20 flex justify-around">
-                    <div>
-                        <h1 className="text-4xl font-bold uppercase">Customar Review </h1>
-                        <p> sadlkfj lsadfhakjsd fsd fkjsd fksajdflaskjdfhalsdkfjhsad </p>
+
+
+
+                <div>
+
+                <div className="mt-10 flex justify-between gap-5 h-[80vh]">
+                    <div className=" flex justify-between flex-col w-2/4">
+                        <div className="">
+                            <h1 className="text-4xl font-bold uppercase">Customar Review </h1>
+                            <p className=" mt-5"> sadlkfj lsadfhakjsd fsd fkjsd fksajdflaskjdfhalsdkfjhsad </p>
+                        </div>
+                        <div className="text-6xl">
+                            <i class="ri-arrow-right-up-line"></i>
+                        </div>
+                        
                     </div>
-                    <div className=" overflow-hidden bg-amber-200">
-                        <img src={Img1} className="h-40"/>
-                        <h1 className="">sfasd </h1>
+                    <div className="  w-full h-full bg-amber-200">
+                        <div className=" relative w-1/3 m-3 rounded-3xl h-[70vh] overflow-hidden flex flex-col justify-between">
+                            <img src={Img1} className="h-full w-full object-cover"/>
+
+                            <div className=" absolute flex w-full h-full flex-col p-5">
+                                <div className=" h-full w-full">
+                                    <h1 className="flex justify-center items-center font-bold bg-white h-10 w-10 rounded-full"> 1 </h1>
+                                </div>
+                                <div>
+                                    <div className=" text-white leading-relaxed">
+                                        <p> Bangladesh, or the People's Republic of Bangladesh, is a densely populated South Asian nation known for its fertile river deltas </p>
+                                    </div>
+                                    <div className=" flex justify-between text-white mt-10">
+                                        <button className=" bg-blue-600 p-2 rounded-2xl px-5"> Click Click </button>
+                                        <i class="ri-arrow-right-line bg-blue-600 p-2 rounded-full px-3"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div className=" overflow-hidden">
-                        <img src={Img1} className="h-40"/>
-                    </div>
-                    <div className=" overflow-hidden">
-                        <img src={Img1} className="h-40"/>
-                    </div>
+                </div>
+
+
                 </div>
             </div>
 
