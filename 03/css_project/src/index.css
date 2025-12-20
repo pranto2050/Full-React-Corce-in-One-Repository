@@ -67,3 +67,15 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 } */
+
+
+
+#right ::-webkit-scrollbar{
+  display: none;
+}
+
+
+
+
+
+
