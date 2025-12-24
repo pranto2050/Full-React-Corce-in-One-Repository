@@ -15,7 +15,6 @@ function FromHandaling(){
     return(
 
         <div className=" h-[100vh] w-[100%] bg-fuchsia-400 flex flex-col items-center">
-
             
             <form onSubmit={submit} className="flex flex-col items-center w-90 mt-10">
                 <input type="text" name="name" className=" border-2 w-60 p-5 rounded-2xl bg-fuchsia-300"/>
