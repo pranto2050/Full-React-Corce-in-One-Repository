@@ -5,7 +5,8 @@ import IncrementDecrement from './Component/IncrementDecrement';
 import Advance01 from './Component/Advance01';
 import ArrayObject from './Component/ArrayObject/ArrayObject';
 // import FromHandaling from './Component/From Handaling/FromHandaling';
-import TwoWayBainding from './Component/From Handaling/TwoWayBainding';
+// import TwoWayBainding from './Component/From Handaling/TwoWayBainding';
+import TwoWayBainding from './Component/From Handaling/notApplycation';
 
 function App() {
   return(
