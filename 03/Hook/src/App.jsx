@@ -7,6 +7,8 @@ import ArrayObject from './Component/ArrayObject/ArrayObject';
 // import FromHandaling from './Component/From Handaling/FromHandaling';
 // import TwoWayBainding from './Component/From Handaling/TwoWayBainding';
 import TwoWayBainding from './Component/From Handaling/notApplycation';
+import LocalSeoge from './Component/LocalStorage/LocalSeoge'
+import ApiTest from './Component/ApiTest/ApiTest'
 
 function App() {
   return(
@@ -15,6 +17,8 @@ function App() {
   <Advance01/>
   <ArrayObject/>
   <TwoWayBainding/>
+  <LocalSeoge/>
+  <ApiTest />
 
 </div>
 
